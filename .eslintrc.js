@@ -21,6 +21,6 @@ module.exports = {
   rules: {
     "prettier/prettier": "error",
     "no-console": "off",
-    "react/display-name": [enabled, { ignoreTranspilerName: false }]
+    "react/display-name": [enabled, { ignoreTranspilerName: true }]
   }
 };
